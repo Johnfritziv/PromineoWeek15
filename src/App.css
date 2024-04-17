@@ -1,0 +1,94 @@
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Centered heading style */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Main container style */
+div {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Styles for the task list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styles for each task item */
+li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Remove border for the last task item */
+li:last-child {
+  border-bottom: none;
+}
+
+/* Styles for input fields and buttons */
+input[type="text"], button {
+  padding: 8px 12px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+/* Full-width input field */
+input[type="text"] {
+  flex-grow: 1;
+  margin-right: 16px;
+}
+
+/* Primary button styling */
+button {
+  background-color: #5c67f2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #7a81f3;
+}
+
+/* Form display style */
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* Styling for submit button */
+input[type="submit"] {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  div {
+    width: 95%;
+  }
+
+  input[type="text"], button {
+    padding: 10px;
+  }
+}
